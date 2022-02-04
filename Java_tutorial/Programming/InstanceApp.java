@@ -9,7 +9,7 @@ public class InstanceApp {
 		p1.write("Hello 1");
 		p1.close();
 		
-		PrintWriter p2 = new PrintWriter("result2.txt"); // PrintWriter라는 클래스의 instance => p1
+		PrintWriter p2 = new PrintWriter("result2.txt"); // PrintWriter라는 클래스의 instance => p2
 		p2.write("Hello 2");
 		p2.close();
 
