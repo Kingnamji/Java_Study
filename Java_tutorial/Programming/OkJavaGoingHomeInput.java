@@ -6,11 +6,14 @@ import org.opentutorials.iot.Lighting;
 import org.opentutorials.iot.DimmingLights;
 
 public class OkJavaGoingHomeInput {
-
+	// args => parameter , 매개변수 
 	public static void main(String[] args) {
 		
-		String address = JOptionPane.showInputDialog("Enter a address");
-		String bright = JOptionPane.showInputDialog("Enter a bright level");
+		String address = args[0];
+		String bright = args[1];
+		
+		// String address = JOptionPane.showInputDialog("Enter a address");
+		// String bright = JOptionPane.showInputDialog("Enter a bright level");
 		
 		// Elevator call
 		Elevator myElevator = new Elevator(address);
